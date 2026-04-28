@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "industries": "Industries",
+    "solutions": "Solutions",
+    "integrations": "Integrations",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "bookDemo": "Book a Demo"
+  },
+  "hero": {
+    "eyebrow": "Conversational AI Agents for Enterprise",
+    "title": "AI Agents That Talk, Sell, and Support — in 26+ Languages",
+    "subtitle": "SmartSphere is the AI call center platform built for enterprises. Voice and chat AI agents handling real conversations across 8 industries and 26+ languages — with native CRM, WhatsApp, and telephony integrations.",
+    "uaePill": "🇦🇪 UAE-headquartered · Operating across MENA & South Asia",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "View Pricing",
+    "trustedBy": "Trusted by teams across 8 industries"
+  },
+  "sections": {
+    "industriesTitle": "Built for Every Industry",
+    "industriesSubtitle": "Pre-trained agents and industry-specific workflows for 8 verticals.",
+    "howItWorksTitle": "From Idea to Live Agent in 4 Steps",
+    "howItWorksSubtitle": "A guided path from kickoff to a production agent on your stack.",
+    "showcaseTitle": "Real Conversations. Real Intelligence.",
+    "showcaseBody": "Watch how a SmartSphere agent handles a real customer conversation across voice and chat — grounded in your knowledge base, taking actions in your CRM, and escalating cleanly when needed.",
+    "analyticsTitle": "AI-Powered Analytics That Tell You What Matters",
+    "analyticsSubtitle": "Every conversation analyzed. Every trend surfaced. Every insight actionable.",
+    "analyticsCta": "See it live — Book a demo →",
+    "integrationsTitle": "Plugs Into Your Stack",
+    "integrationsSubtitle": "Native connectors for the systems you already run.",
+    "languagesTitle": "Speaks 26+ Languages Fluently",
+    "languagesSubtitle": "Native pronunciation, regional dialects, and full RTL support.",
+    "securityTitle": "Enterprise-Grade Security",
+    "securitySubtitle": "Built on infrastructure trusted by thousands of companies worldwide.",
+    "securityRoadmap": "On Our Roadmap",
+    "pricingTeaserTitle": "Premium AI Agents, Transparent Pricing",
+    "pricingTeaserSubtitle": "Four tiers, one money-back guarantee. Pick what fits your stage.",
+    "pricingGuarantee": "30-day money-back guarantee on all paid plans",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Everything you need to know before booking a demo.",
+    "finalCtaTitle": "Ready to Deploy Your AI Agent?",
+    "finalCtaSubtitle": "Book a demo and see SmartSphere on your data in 30 minutes."
+  },
+  "cta": {
+    "title": "See SmartSphere on your data in 30 minutes",
+    "subtitle": "We'll plug into a sandbox of your stack and run live calls and chats with your scenarios.",
+    "primary": "Book a Demo",
+    "secondary": "Talk to Sales"
+  },
+  "footer": {
+    "tagline": "Conversational AI agents for global teams. UAE-headquartered, serving the world.",
+    "rights": "All rights reserved.",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "security": "Security & Privacy"
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="SmartSphere — Conversational AI Agents for Enterprise">
+  <rect width="1200" height="630" fill="#0A2540"/>
+  <rect x="60" y="60" width="40" height="40" rx="8" fill="#00D4AA"/>
+  <text x="120" y="92" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">SmartSphere</text>
+  <text x="60" y="320" font-family="Inter, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">AI Agents That Talk,</text>
+  <text x="60" y="392" font-family="Inter, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Sell, and Support</text>
+  <text x="60" y="464" font-family="Inter, sans-serif" font-size="28" fill="#85E9CC">26+ languages · UAE-headquartered</text>
+  <rect x="60" y="540" width="180" height="48" rx="10" fill="#00D4AA"/>
+  <text x="150" y="570" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#0A2540">Book a Demo</text>
+</svg>
