@@ -17,7 +17,7 @@ export function Header() {
   const t = useTranslations('nav');
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/85 backdrop-blur">
-      <Container className="flex h-16 items-center justify-between">
+      <Container className="flex h-20 items-center justify-between">
         <Link
           href="/"
           className="flex items-center"
@@ -29,7 +29,7 @@ export function Header() {
             width={180}
             height={40}
             priority
-            className="h-8 w-auto"
+            className="h-10 w-auto md:h-11"
           />
         </Link>
         <nav
