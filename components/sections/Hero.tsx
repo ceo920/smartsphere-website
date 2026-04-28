@@ -20,11 +20,16 @@ export function Hero() {
       <Container className="py-16 sm:py-24">
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
-            <Badge>
-              <span className="h-1.5 w-1.5 rounded-full bg-teal-500" aria-hidden />
-              {t('eyebrow')}
-            </Badge>
-            <h1 className="mt-6 text-4xl font-semibold tracking-tight text-navy-900 sm:text-5xl lg:text-6xl">
+            <div
+              className="animate-fade-in-up"
+              style={{ animationDelay: '200ms' }}
+            >
+              <Badge>
+                <span className="h-1.5 w-1.5 rounded-full bg-teal-500" aria-hidden />
+                {t('eyebrow')}
+              </Badge>
+            </div>
+            <h1 className="mt-6 animate-fade-in-up text-4xl font-semibold tracking-tight text-navy-900 sm:text-5xl lg:text-6xl">
               {t('title')}
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
@@ -34,7 +39,7 @@ export function Hero() {
               {t('uaePill')}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <Button href="/contact" size="lg">
+              <Button href="/contact" size="lg" className="animate-subtle-pulse">
                 {t('ctaPrimary')}
               </Button>
               <Button href="/pricing" size="lg" variant="secondary">
@@ -43,7 +48,7 @@ export function Hero() {
             </div>
           </div>
           <div className="lg:col-span-5">
-            <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl ring-1 ring-slate-900/5">
+            <div className="relative aspect-[16/10] animate-float overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl ring-1 ring-slate-900/5">
               <Image
                 src="/images/dashboard-overview.png"
                 alt="SmartSphere AI call center dashboard with real-time metrics and call analytics"
