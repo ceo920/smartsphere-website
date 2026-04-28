@@ -17,7 +17,7 @@ export function Header() {
   const t = useTranslations('nav');
   return (
     <header className="sticky top-0 z-40 border-b border-slate-200 bg-white/85 backdrop-blur">
-      <Container className="flex h-20 items-center justify-between">
+      <Container className="flex h-24 items-center justify-between">
         <Link
           href="/"
           className="flex items-center"
@@ -26,10 +26,10 @@ export function Header() {
           <Image
             src="/images/logo-dark.png"
             alt="SmartSphere Technologies"
-            width={180}
-            height={40}
+            width={280}
+            height={70}
             priority
-            className="h-10 w-auto md:h-11"
+            className="h-14 w-auto md:h-16"
           />
         </Link>
         <nav
