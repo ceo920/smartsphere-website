@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Container } from './Container';
@@ -19,13 +20,17 @@ export function Header() {
       <Container className="flex h-16 items-center justify-between">
         <Link
           href="/"
-          className="flex items-center gap-2 text-lg font-semibold tracking-tight text-navy-900"
+          className="flex items-center"
+          aria-label="SmartSphere Technologies — Home"
         >
-          <span
-            aria-hidden
-            className="inline-block h-6 w-6 rounded-md bg-navy-900"
+          <Image
+            src="/images/logo-dark.png"
+            alt="SmartSphere Technologies"
+            width={180}
+            height={40}
+            priority
+            className="h-8 w-auto"
           />
-          SmartSphere
         </Link>
         <nav
           className="hidden items-center gap-7 md:flex"

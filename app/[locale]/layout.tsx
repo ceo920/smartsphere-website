@@ -35,12 +35,26 @@ export async function generateMetadata({
 }: {
   params: { locale: string };
 }): Promise<Metadata> {
-  return buildMetadata({
+  const metadata = buildMetadata({
     title: `${siteConfig.name} — Conversational AI Agents for 8+ Industries`,
     description: siteConfig.description,
     path: '/',
-    locale: params.locale as Locale
+    locale: params.locale as Locale,
+    image: '/og-default.png'
   });
+
+  return {
+    ...metadata,
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: 'any' },
+        { url: '/favicon-32x32.png', type: 'image/png', sizes: '32x32' },
+        { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
+        { url: '/icon-512.png', type: 'image/png', sizes: '512x512' }
+      ],
+      apple: '/apple-touch-icon.png'
+    }
+  };
 }
 
 export default async function RootLayout({
