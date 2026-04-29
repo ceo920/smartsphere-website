@@ -5,12 +5,18 @@ import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 
 const trustedLogos = [
-  '/images/integration-logos/hubspot.svg',
-  '/images/integration-logos/salesforce.svg',
-  '/images/integration-logos/zoho.svg',
-  '/images/integration-logos/twilio.svg',
-  '/images/integration-logos/whatsapp.svg',
-  '/images/integration-logos/slack.svg'
+  {
+    src: '/images/clients/sil.png',
+    alt: 'SIL — At the edge of digital innovation',
+    width: 252,
+    height: 160
+  },
+  {
+    src: '/images/clients/modern-printing-press.png',
+    alt: 'Modern Printing Press',
+    width: 301,
+    height: 160
+  }
 ];
 
 export function Hero() {
@@ -62,19 +68,19 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-16 border-t border-slate-200 pt-10">
+        <div className="mt-16 border-t border-slate-200 py-12 md:py-16">
           <p className="text-center text-sm font-medium text-slate-500">
             {t('trustedBy')}
           </p>
-          <ul className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-6 opacity-70">
-            {trustedLogos.map((src) => (
-              <li key={src} className="grayscale">
+          <ul className="mt-8 flex flex-wrap items-center justify-center gap-12 md:gap-16">
+            {trustedLogos.map((logo) => (
+              <li key={logo.src}>
                 <Image
-                  src={src}
-                  alt=""
-                  width={120}
-                  height={48}
-                  className="h-10 w-auto"
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={logo.width}
+                  height={logo.height}
+                  className="h-14 md:h-16 w-auto grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
                 />
               </li>
             ))}
